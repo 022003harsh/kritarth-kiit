@@ -1,5 +1,7 @@
 import React from "react";
 import { leadData } from "./leadData";
+import insta from "./images/Insta.svg"
+import linkedin from "./images/linkedin.svg"
 
 const Lead = () => {
   return (
@@ -13,15 +15,26 @@ const Lead = () => {
         <img
           src={leadData[0].image}
           alt={leadData[0].name}
-          class="rounded-full w-48 h-48 object-cover"
+          className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[0].name}</h3>
         <ul className="mt-2 flex">
           <li className="pr-8">
-            <a href={leadData[0].igLink}>Instagram Icon</a>
+            <a href={leadData[0].igLink}>
+          <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        /></a>
           </li>
           <li>
-            <a href={leadData[0].linkedInLink}>LinkedIn Icon</a>
+            <a href={leadData[0].linkedInLink}>
+            <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+            </a>
           </li>
         </ul>
       </div>
@@ -39,10 +52,22 @@ const Lead = () => {
             <h3 className="mt-4 font-bold">{item.name}</h3>
             <ul className="mt-2 flex">
               <li className="pr-8">
-                <a href={item.igLink}>Instagram Icon</a>
+                <a href={item.igLink}>
+                  <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
               <li>
-                <a href={item.linkedInLink}>LinkedIn Icon</a>
+                <a href={item.linkedInLink}>
+                  <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
             </ul>
           </div>
@@ -67,10 +92,22 @@ const Lead = () => {
             <h3 className="mt-4 font-bold">{item.name}</h3>
             <ul className="mt-2 flex">
               <li className="pr-8">
-                <a href={item.igLink}>Instagram Icon</a>
+                <a href={item.igLink}>
+                  <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
               <li>
-                <a href={item.linkedInLink}>LinkedIn Icon</a>
+                <a href={item.linkedInLink}>
+                  <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
             </ul>
           </div>
@@ -85,15 +122,27 @@ const Lead = () => {
         <img
           src={leadData[8].image}
           alt={leadData[8].name}
-          class="rounded-full w-48 h-48 object-cover"
+          className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[8].name}</h3>
         <ul className="mt-2 flex">
           <li className="pr-8">
-            <a href={leadData[8].igLink}>Instagram Icon</a>
+            <a href={leadData[8].igLink}>
+              <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+            </a>
           </li>
           <li>
-            <a href={leadData[8].linkedInLink}>LinkedIn Icon</a>
+            <a href={leadData[8].linkedInLink}>
+              <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+            </a>
           </li>
         </ul>
       </div>
@@ -111,10 +160,22 @@ const Lead = () => {
             <h3 className="mt-4 font-bold">{item.name}</h3>
             <ul className="mt-2 flex">
               <li className="pr-8">
-                <a href={item.igLink}>Instagram Icon</a>
+                <a href={item.igLink}>
+                  <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
               <li>
-                <a href={item.linkedInLink}>LinkedIn Icon</a>
+                <a href={item.linkedInLink}>
+                  <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
             </ul>
           </div>
@@ -134,10 +195,22 @@ const Lead = () => {
             <h3 className="mt-4 font-bold">{item.name}</h3>
             <ul className="mt-2 flex">
               <li className="pr-8">
-                <a href={item.igLink}>Instagram Icon</a>
+                <a href={item.igLink}>
+                  <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
               <li>
-                <a href={item.linkedInLink}>LinkedIn Icon</a>
+                <a href={item.linkedInLink}>
+                  <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
             </ul>
           </div>
@@ -152,15 +225,27 @@ const Lead = () => {
         <img
           src={leadData[17].image}
           alt={leadData[17].name}
-          class="rounded-full w-48 h-48 object-cover"
+          className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[17].name}</h3>
         <ul className="mt-2 flex">
           <li className="pr-8">
-            <a href={leadData[17].igLink}>Instagram Icon</a>
+            <a href={leadData[17].igLink}>
+              <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+            </a>
           </li>
           <li>
-            <a href={leadData[17].linkedInLink}>LinkedIn Icon</a>
+            <a href={leadData[17].linkedInLink}>
+              <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+            </a>
           </li>
         </ul>
       </div>
@@ -178,10 +263,22 @@ const Lead = () => {
             <h3 className="mt-4 font-bold">{item.name}</h3>
             <ul className="mt-2 flex">
               <li className="pr-8">
-                <a href={item.igLink}>Instagram Icon</a>
+                <a href={item.igLink}>
+                  <img
+          src={insta}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
               <li>
-                <a href={item.linkedInLink}>LinkedIn Icon</a>
+                <a href={item.linkedInLink}>
+                  <img
+          src={linkedin}
+          alt="logo"
+          className="rounded-full w-6 h-6 object-cover"
+        />
+                </a>
               </li>
             </ul>
           </div>

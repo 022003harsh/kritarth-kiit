@@ -22,9 +22,6 @@ const Form = () => {
         title="something"
         ref={iframeRef}
         src={FORM_URL}
-        frameBorder="0"
-        marginWidth="0"
-        marginHeight="0"
         style={{
           border: "none",
           position: "absolute",
@@ -33,10 +30,7 @@ const Form = () => {
           width: "100%",
           height: "100%",
         }}
-        allowFullScreen
-        webkitallowfullscreen
-        mozallowfullscreen
-        msallowfullscreen
+        allowFullScreen={true}
       />
 
       <div className="fixed top-0 -z-20 right-0 w-screen h-screen back"></div>
