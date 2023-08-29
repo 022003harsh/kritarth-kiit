@@ -20,7 +20,7 @@ function App() {
   const [leads, setleads] = useState(0);
   return (
     <BrowserRouter>
-      <Scrolltop/>
+      <Scrolltop />
       <Navbar />
 
       <Routes className="overflow-x-hidden">

@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+import React, { useState, useEffect } from "react";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 const CircularCounter = ({ didViewCountUp, setDidViewCountUp }) => {
   const [progress, setProgress] = useState(0);
 
-  const onVisibilityChange = isVisible => {
+  const onVisibilityChange = (isVisible) => {
     if (isVisible && !didViewCountUp) {
       setDidViewCountUp(true);
       setProgress(100);
@@ -14,7 +14,11 @@ const CircularCounter = ({ didViewCountUp, setDidViewCountUp }) => {
 
   return (
     <div className="flex justify-center items-center ">
-      <VisibilitySensor onChange={onVisibilityChange} offset={{ top: 10 }} delayedCall>
+      <VisibilitySensor
+        onChange={onVisibilityChange}
+        offset={{ top: 10 }}
+        delayedCall
+      >
         <div className="relative w-64 h-64">
           <svg className="w-full h-full" viewBox="0 0 45 45">
             <circle
@@ -47,7 +51,14 @@ const CircularCounter = ({ didViewCountUp, setDidViewCountUp }) => {
           </svg>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-poppins font-semibold text-white">
             {didViewCountUp ? (
-              <CountUp start={0} end={100000} duration={3} formattingFn={num => num >=100000 ? '100K+' : num.toLocaleString() + '+'} />
+              <CountUp
+                start={0}
+                end={80000}
+                duration={3}
+                formattingFn={(num) =>
+                  num >= 80000 ? "80K+" : num.toLocaleString() + "+"
+                }
+              />
             ) : (
               <span>0</span>
             )}
