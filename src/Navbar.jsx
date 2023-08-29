@@ -6,6 +6,7 @@ import kritarthlogo from './images/kritarth logo 1 1.svg'
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
+
 function Navbar() {
   const [click, setclick] = useState(false);
   const [about, setabout] = useState(false);
@@ -110,7 +111,7 @@ function Navbar() {
             </Link>
             <Link
               onClick={() => { changecolor("reg") }}
-              to={"/form"}
+              to={"/commingsoon"}
               className={`font-semiblod ${reg && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               Register
@@ -205,9 +206,7 @@ function Navbar() {
               {/* Profile dropdown */}
               <div className="relative ml-3">
                 <div>
-                  <div
-
-                    className="relative flex   text-sm "
+                  <div className="relative flex   text-sm "
                   ><a href="https://ksac.kiit.ac.in/" target="_blank"><img
                     className="h-10 w-auto p-1"
                     src={ksac}
@@ -255,7 +254,7 @@ function Navbar() {
               </Link>
               <Link
                 onClick={() => setclick(false)}
-                to={'/form'}
+                to={'/commingsoon'}
                 className="text-white hover:bg-green-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
               >
                 Register

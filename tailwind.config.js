@@ -7,7 +7,7 @@ module.exports = {
         
       },
       theme:{
-        BoxShadow:{aboutLogoShadowBlue:
+        Shadow:{aboutLogoShadowBlue:
         "0px 0px 14px 7px rgba(55, 124, 236, .5), 0 2px 4px -1px rgba(35, 63, 146, 0.8)",
         }
       },

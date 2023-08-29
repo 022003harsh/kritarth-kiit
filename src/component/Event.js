@@ -54,7 +54,7 @@ const About = (props) => {
                     HEARTS OF HOPE
                   </h1>
                 </div>
-                <Link to={"/form"}>
+                <Link to={"/commingsoon"}>
                   <button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
                     <span className="-translate-y-[2px] font-Rubik">
                       Register
