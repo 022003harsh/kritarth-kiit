@@ -32,7 +32,7 @@ const Contact = () => {
           <div className='flex flex-col md:items-center xl:items-start'>
             <p className='text-[18px] lg:text-[22px] font-medium '>EMAIL</p>
             <a href="mailto: info.kritarth@gmail.com" className='cursor-pointer'>info.kritarth@gmail.com</a>
-            <a href="mailto: khwaab.ksac@gmail.com" className='cursor-pointer'>khwaab.ksac@gmail.com</a>
+            <a href="mailto: khwaab.kiit@gmail.com" className='cursor-pointer'>khwaab.kiit@gmail.com</a>
           </div>
           <div className='flex flex-col md:items-center xl:items-start'>
             <p className='text-[18px] lg:text-[22px] font-medium'>SOCIAL MEDIA</p>
