@@ -1,6 +1,8 @@
 import React from 'react'
 import { event } from '../Data'
 import cursor from "../images/cursor1.png";
+import { Link } from 'react-router-dom'
+import bg from "../images/Background_Image.png"
 
 const Events = (props) => {
   let leads=props.leads;
@@ -34,11 +36,43 @@ const Events = (props) => {
               
             </div>
           </div>
+          <div className='flex justify-center'>
+          <Link to={"/commingsoon"}>
+                  <button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
+                    <span className="-translate-y-[2px] font-Rubik">
+                      Register
+                    </span>
+                    <img
+                      src={cursor}
+                      alt=""
+                      className="w-[18px] h-[18px] -translate-y-[2px] text-white fill-current ml-2"
+                    />
+                  </button>
+                </Link>
+          </div>
         </div>
       </div>
-      <div className="fixed top-0 -z-20 right-0 w-screen h-screen back">
+      <div className="fixed top-0 -z-20 left-0 w-[100vw] h-[100vh]">
+      {/* {imageslider.map((image, index) => (
+                    <img
+                        key={index}
+                        src={image.url}
+                        alt={image.url}
+                        className={`animate-fade-in  brightness-50 bg-black h-[100vh] w-[100vw] absolute inset-0 z-5 opacity-1 ease-out object-cover transform
+                            ${currentIndex === 2 ? "animate-from-bottom":""}
+                            ${index === currentIndex ? "block" : "hidden"}
+                        `}
+                    />
+                ))} */}
+      {/* <img src={bg} alt="background" className='absolute object-cover top-0 left-0   w-[100vw]'/>  */}
+      
+      <img
+        src={bg}
+        alt="bg"
+        className="  fixed top-0 object-cover -z-20 right-0 w-[100vw] h-[100vh]"
+      />
 
-      </div>
+      </div> 
     </div>
   )
 }

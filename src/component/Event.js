@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import kritarthlogo from "../images/kritarth logo 1 1.png";
 import cursor from "../images/cursor1.png";
 import { Link } from "react-router-dom";
+import bg from "../images/Background_Image.png"
 
 const About = (props) => {
   const [currentState, setcurrentState] = useState(0);
@@ -106,7 +107,27 @@ const About = (props) => {
           </div>
         </div>
       </div>
-      <div className="fixed top-0 -z-20 right-0 w-screen h-screen back"></div>
+      <div className="fixed top-0 -z-20 left-0 w-[100vw] h-[100vh]">
+      {/* {imageslider.map((image, index) => (
+                    <img
+                        key={index}
+                        src={image.url}
+                        alt={image.url}
+                        className={`animate-fade-in  brightness-50 bg-black h-[100vh] w-[100vw] absolute inset-0 z-5 opacity-1 ease-out object-cover transform
+                            ${currentIndex === 2 ? "animate-from-bottom":""}
+                            ${index === currentIndex ? "block" : "hidden"}
+                        `}
+                    />
+                ))} */}
+      {/* <img src={bg} alt="background" className='absolute object-cover top-0 left-0   w-[100vw]'/>  */}
+      
+      <img
+        src={bg}
+        alt="bg"
+        className="  fixed top-0 object-cover -z-20 right-0 w-[100vw] h-[100vh]"
+      />
+
+      </div> 
     </div>
   );
 };
