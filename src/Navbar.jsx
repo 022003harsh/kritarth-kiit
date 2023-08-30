@@ -1,6 +1,6 @@
 import React from "react";
-import kiit from "./images/KIIT_LOGO_1.png";
-import ksac from "./images/KSAC_LOGO_1.png";
+import kiit from "./images/KIIT_LOGO_1.svg";
+import ksac from "./images/KSAC_LOGO_1.svg";
 // import back from "./images/Background_Image.png";
 import kritarthlogo from './images/kritarth logo 1 1.svg'
 import { Link } from "react-router-dom";
