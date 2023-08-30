@@ -107,7 +107,7 @@ function Navbar() {
               to={"/leads"}
               className={`font-semiblod ${leads && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
-              Members
+              Leads
             </Link>
             <Link
               onClick={() => { changecolor("reg") }}
@@ -208,7 +208,7 @@ function Navbar() {
                 <div>
                   <div className="relative flex   text-sm "
                   ><a href="https://ksac.kiit.ac.in/" target="_blank"><img
-                    className="h-10 w-auto p-1"
+                    className="h-11 w-auto p-1"
                     src={ksac}
                     alt="Your Company"
                   /></a>
@@ -250,7 +250,7 @@ function Navbar() {
                 to={'/leads'}
                 className="text-white hover:bg-green-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
               >
-                Members
+                Leads
               </Link>
               <Link
                 onClick={() => setclick(false)}
