@@ -14,7 +14,8 @@ module.exports = {
       fontFamily:{
         'Mulish':'Mulish',
         'Rubik':'Rubik',
-        'Poppins':'Poppins'
+        'Poppins':'Poppins',
+        'raleway': ['"Raleway"', 'sans-serif']
       }
     },
   },
