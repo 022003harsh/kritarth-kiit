@@ -9,7 +9,7 @@ import cursor from '../images/cursor1.png'
 import { Link } from 'react-router-dom'
 import CircularCounter from './counter'
 import CountdownTimer from "./countdown";
-
+import bg from "../images/Background_Image.png"
 const targetDate = new Date('2023-09-16T17:59:59');
 
 function Home() {
@@ -27,8 +27,8 @@ function Home() {
   }, []);
     return (
         <div className='relative pb-10'>
-        <div className='bg-black -z-40 absolute top-0 left-0 w-full h-full '></div>
-        <div className='w-[100vw]'>
+        <div className='-z-40 absolute top-0 left-0 w-full h-full '></div>
+        <div className='w-[100vw] '>
           <div className='max-w-[1920px] h-[80vh] md:h-[90vh] p-3 xl:p-0 flex flex-col items-center justify-center mx-auto'>
             <div className='relative  xl:p-0 w-full 2xl:w-[1422px] h-[480px] mx-auto bg-transparent md:mt-[40px]'>
               {/* <img src={img1} alt="Event image" className=' object-fill max-h-[700px] w-full' /> */}
@@ -92,8 +92,8 @@ function Home() {
     <div className='w-full mx-3 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
       <CountdownTimer targetDate={targetDate} /></div>
     </div>
-    <div className="fixed top-0 -z-20 right-0 w-[100vw] h-[100vw]">
-      {imageslider.map((image, index) => (
+    <div className="fixed top-0 -z-20 left-0 w-[100vw] h-[100vh]">
+      {/* {imageslider.map((image, index) => (
                     <img
                         key={index}
                         src={image.url}
@@ -103,8 +103,18 @@ function Home() {
                             ${index === currentIndex ? "block" : "hidden"}
                         `}
                     />
-                ))}
-      </div>
+                ))} */}
+      {/* <img src={bg} alt="background" className='absolute object-cover top-0 left-0   w-[100vw]'/>  */}
+      
+      <img
+        src={bg}
+        alt="bg"
+        className="  fixed top-0 object-cover -z-20 right-0 w-[100vw] h-[100vh]"
+      />
+
+      </div> 
+
+      
       
 </div>
 

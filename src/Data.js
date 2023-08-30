@@ -5,7 +5,7 @@ export const event = [
     name: "KLICK IT",
     url: "KLICK IT.png",
     message1:"Cameras are powerful. They preserve memories. They have the ability to halt time. They have the ability to tell stories. Be it landscapes that take your breath away to portraits that reveal raw emotions.",
-    message2:"So don't waste time and get ready to capture... the world through your lens and share your distinct point of view.As Krithath is hosting &quot;Klick It&quot; one of the most intriguing and innovative photography competition of the year, and we're excited to share it with you!"
+    message2:"So don't waste time and get ready to capture... the world through your lens and share your distinct point of view.As Krithath is hosting Klick It one of the most intriguing and innovative photography competition of the year, and we're excited to share it with you!"
   },
   {
     id: 1,
