@@ -1,6 +1,7 @@
 import React from "react";
 import founder from "./images/Founder.png";
-import kiss from "./images/infrastructure.png";
+//import kiss from "./images/infrastructure.png";
+import kiss from "./images/KISS-Foundation-Oct-2018.jpg"
 import kiit from "./images/KIIT.png";
 
 function About() {
