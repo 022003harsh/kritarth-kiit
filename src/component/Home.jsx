@@ -63,11 +63,11 @@ function Home() {
     
     
     <div>
-      <div className='max-w-[1920px] p-3 xl:p-0 mx-auto '>
+      <div className='max-w-[1162px] p-3 xl:p-0 mx-auto '>
       <div className='text-white font-Poppins text-xl md:text-3xl lg:text-4xl font-semibold text-center mt-11 mb-11'>Prize Pool</div>
         <div className='flex md:flex-row flex-col-reverse justify-between gap-4 items-center w-full h-full '>
             <div className='w-full md:w-[50%] 2xl:w-[50%] flex items-center justify-center h-full'>
-              <div className=' md:ml-8 mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F] italic'>
+              <div className='md:ml-8 mb-1  md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F] italic'>
                 <div className='text-white font-semibold text-sm sm:text-base xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Mulish'>
                 Hearts of Hope' depicts multiple hearts yearning for the same thing:
                 the hope of being absorbed into a family or being among loved ones,
@@ -88,7 +88,7 @@ function Home() {
       </div>
     </div>
     </div>
-    <div className='flex items-center h-{500px} xl:h-screen justify-center'>
+    <div className='flex items-center h-{500px} xl:h-screen justify-center mt-24 xl:mt-0'>
     <div className='w-4/5 md:w-4/5 md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
       <CountdownTimer targetDate={targetDate} /></div>
     </div>
