@@ -24,7 +24,7 @@ const Events = (props) => {
             {/* <img src={} alt="" /> */}
           </div>
           <div className='flex flex-col lg:flex-row justify-center gap-8 items-center mt-8'>
-            <div className='max-width-[500px] max-h-[500px] rounded-3xl bg-black border-solid border-[0.92px] border-[#7F7F7F]'>
+            <div className='max-width-[505px] max-h-[505px] rounded-3xl bg-black border-solid border-[0.92px] border-[#7F7F7F]'>
               <img src={foundUser.url} alt="" className='rounded-3xl max-width-[500px] w-full max-h-[500px] h-full' />
             </div>
             <div className='flex flex-col justify-center items-center py-10 px-10 max-width-[500px] sm:h-[500px] sm:w-[500px] w-full rounded-3xl  border-solid border-[0.92px] border-[#7F7F7F] blurbox'>
