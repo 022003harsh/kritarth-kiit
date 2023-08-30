@@ -3,8 +3,8 @@ export const leadData = [
     id: 1,
     image: "Ayush.png",
     igLink:
-      "",
-    linkedInLink: "",
+      "https://instagram.com/ayush_mudaliyar?igshid=MzRlODBiNWFlZA==",
+    linkedInLink: "https://www.linkedin.com/in/v-n-ayush-mudaliyar-21a325216",
     name: "VN Ayush Mudaliyar",
   },
   {
@@ -24,8 +24,8 @@ export const leadData = [
   {
     id: 4,
     image: "adrija.png",
-    igLink: "https://www.instagram.com/lonepair.4/",
-    linkedInLink: "https://www.linkedin.com/in/abhardwaj28/",
+    igLink: "https://instagram.com/_.adrijaaaaa._?igshid=MzRlODBiNWFlZA==",
+    linkedInLink: "https://www.linkedin.com/in/adrija-mitra-2824101b7",
     name: "Adrija Mitra",
   },
   {
