@@ -30,7 +30,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="text-center">
-      <div className="text-4xl font-semibold mb-2 text-white font-raleway">Mark your calender🗓️</div>
+      <div className="text-4xl font-semibold mb-2 text-white font-raleway">Mark your calender 🗓️</div>
       <div className="text-xl mb-4">
         <div className="font-semibold text-3xl text-white">Days</div>
         <div className="font-semibold text-3xl text-white">
