@@ -20,7 +20,7 @@ const Lead = () => {
         <h3 className="mt-4 font-bold">{leadData[0].name}</h3>
         <ul className="mt-2 flex">
           <li className="pr-8">
-            <a href={leadData[0].igLink}>
+            <a href={leadData[0].igLink} target="_blank">
           <img
           src={insta}
           alt="logo"
@@ -28,7 +28,7 @@ const Lead = () => {
         /></a>
           </li>
           <li>
-            <a href={leadData[0].linkedInLink}>
+            <a href={leadData[0].linkedInLink} target="_blank">
             <img
           src={linkedin}
           alt="logo"
@@ -54,19 +54,19 @@ const Lead = () => {
               <li className="pr-8">
                 <a href={item.igLink}>
                   <img
-          src={insta}
-          alt="logo"
-          className="rounded-full w-6 h-6 object-cover"
-        />
+                    src={insta}
+                    alt="logo"
+                    className="rounded-full w-6 h-6 object-cover"
+                  />
                 </a>
               </li>
               <li>
                 <a href={item.linkedInLink}>
                   <img
-          src={linkedin}
-          alt="logo"
-          className="rounded-full w-6 h-6 object-cover"
-        />
+                    src={linkedin}
+                    alt="logo"
+                    className="rounded-full w-6 h-6 object-cover"
+                  />
                 </a>
               </li>
             </ul>
@@ -94,10 +94,10 @@ const Lead = () => {
               <li className="pr-8">
                 <a href={item.igLink}>
                   <img
-          src={insta}
-          alt="logo"
-          className="rounded-full w-6 h-6 object-cover"
-        />
+                    src={insta}
+                    alt="logo"
+                    className="rounded-full w-6 h-6 object-cover"
+                  />
                 </a>
               </li>
               <li>
@@ -136,7 +136,7 @@ const Lead = () => {
             </a>
           </li>
           <li>
-            <a href={leadData[8].linkedInLink}>
+            <a href={leadData[8].linkedInLink} target="_blank">
               <img
           src={linkedin}
           alt="logo"
