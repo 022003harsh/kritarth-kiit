@@ -30,14 +30,19 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="text-center">
-      <div className="text-4xl font-semibold mb-2 text-white font-raleway">Mark your calender 🗓️</div>
-      <div className="text-xl mb-4">
-        <div className="font-semibold text-3xl text-white">Days</div>
-        <div className="font-semibold text-3xl text-white">
+      <div className="text-2xl md:text-4xl font-semibold text-white font-raleway">Mark your calender 🗓️</div>
+      <div className="text-xl ">
+        <div className="font-semibold text-1xl md:text-3xl text-white pb-2">17-18 sept, 2023</div>
+      <div className="text-1xl md:text-4xl font-semibold pt-2 text-white font-raleway">Countdown Begins</div>
+        
+      </div>
+      <div className="flex justify-center space-x-4">
+      <div className="text-xl ">
+        <div className="font-semibold text-xl md:text-3xl text-white">Days</div>
+        <div className="font-semibold text-xl md:text-3xl text-white">
           {timeRemaining.days}
         </div>
       </div>
-      <div className="flex justify-center space-x-4">
         <div className="text-xl">
           <div className="font-semibold text-xl md:text-3xl text-white">Hours</div>
           <div className="font-semibold text-xl md:text-3xl text-white">
