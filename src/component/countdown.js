@@ -32,7 +32,7 @@ const CountdownTimer = ({ targetDate }) => {
     <div className="text-center">
       <div className="text-2xl md:text-4xl font-semibold text-white font-raleway">Mark your calender 🗓️</div>
       <div className="text-xl ">
-        <div className="font-semibold text-1xl md:text-3xl text-white pb-2">17-18 sept, 2023</div>
+        <div className="font-semibold text-1xl md:text-3xl text-white pb-2">17-18 Sept, 2023</div>
       <div className="text-1xl md:text-4xl font-semibold pt-2 text-white font-raleway">Countdown Begins</div>
         
       </div>

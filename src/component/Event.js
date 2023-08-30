@@ -22,7 +22,7 @@ const About = (props) => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % 3);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % 2);
     }, 5000); // Set the desired interval time (in milliseconds)
 
     return () => {
@@ -98,7 +98,7 @@ const About = (props) => {
                     onClick={handleClick(abouts.id)}
                     className=" cursor-pointer rounded-xl "
                   >
-                    <img src={abouts.url} alt="" className="w-full h-full rounded-xl hover:scale-105 translate-3 duration-200 object-cover"  />
+                    <img src={abouts.url} alt="" className="w-full h-full rounded-xl hover:scale-105 translate-3 duration-200 object-cover" />
                   </div>
                 );
               })}
