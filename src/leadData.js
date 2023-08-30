@@ -6,6 +6,7 @@ export const leadData = [
       "https://instagram.com/ayush_mudaliyar?igshid=MzRlODBiNWFlZA==",
     linkedInLink: "https://www.linkedin.com/in/v-n-ayush-mudaliyar-21a325216",
     name: "VN Ayush Mudaliyar",
+    position: "Coordinator",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/__annnnieeee__/",
     linkedInLink: "http://www.linkedin.com/in/ananya-verma-2b78151b7",
     name: "Ananya Verma",
+    position: "Coordinator",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ export const leadData = [
     igLink: "https://instagram.com/shivramkrishna_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
     linkedInLink: "https://www.linkedin.com/in/shivram-krishna-819536161",
     name: "Shivram Krishna",
+    position: "Coordinator",
   },
   {
     id: 4,
@@ -27,6 +30,7 @@ export const leadData = [
     igLink: "https://instagram.com/_.adrijaaaaa._?igshid=MzRlODBiNWFlZA==",
     linkedInLink: "https://www.linkedin.com/in/adrija-mitra-2824101b7",
     name: "Adrija Mitra",
+    position: "Coordinator",
   },
   {
     id: 5,
@@ -34,6 +38,7 @@ export const leadData = [
     igLink: "https://instagram.com/amulya_ayushhh_?igshid=NTc4MTIwNjQ2YQ==",
     linkedInLink: "https://www.linkedin.com/in/ayush-amulya-443614256",
     name: "Ayush Amulya",
+    position: "Assistant Coordinator",
   },
   {
     id: 6,
@@ -41,6 +46,7 @@ export const leadData = [
     igLink: "https://instagram.com/aryan._.vora?igshid=OGQ5ZDc2ODk2ZA==",
     linkedInLink: "https://www.linkedin.com/in/aryan-vora-32589a221/",
     name: "Aryan Vora",
+    position: "Assistant Coordinator",
   },
   {
     id: 7,
@@ -48,6 +54,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/_sunn.shinee._/",
     linkedInLink: "https://www.linkedin.com/in/aditi-tapadar-b87895230/",
     name: "Aditi Tapadar",
+    position: "Assistant Coordinator",
   },
   {
     id: 8,
@@ -56,6 +63,7 @@ export const leadData = [
       "https://instagram.com/raj_nandani1103?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
     linkedInLink: "https://www.linkedin.com/in/raj-nandani-1102feb",
     name: "Raj Nandani",
+    position: "Assistant Coordinator",
   },
 
   {
@@ -65,6 +73,7 @@ export const leadData = [
       "https://instagram.com/amol_kshitij?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
     linkedInLink: "http://www.linkedin.com/in/amolkshitij",
     name: "Amol Kshitij",
+    position: "Inaugral & Logistic Head",
   },
   {
     id: 10,
@@ -72,6 +81,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/_dank_coffee_/",
     linkedInLink: "https://www.linkedin.com/in/sayantan-banerjee-4815331b7/",
     name: "Sayantan Banerjee",
+    position: "Content Lead",
   },
 
   {
@@ -81,6 +91,7 @@ export const leadData = [
       "https://instagram.com/kritica_26?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
     linkedInLink: "https://www.linkedin.com/in/kritica-arora-15648624a/",
     name: "Kritica Arora",
+    position: "Web Dev Lead",
   },
   {
     id: 12,
@@ -88,28 +99,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/shivaniroy__/",
     linkedInLink: "http://linkedin.com/in/shivani-roy-6b502a20a",
     name: "Shivani Roy",
-  },
-  {
-    id: 13,
-    image: "Mudit Jain.jpg",
-    igLink:
-      "https://instagram.com/mummykarajabeta_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-    linkedInLink: "https://www.linkedin.com/in/muditjain20",
-    name: "Mudit Jain",
-  },
-  {
-    id: 14,
-    image: "Sourav Kumar Sahoo.jpg",
-    igLink: "https://instagram.com/souravsahoolucky?igshid=NTc4MTIwNjQ2YQ==",
-    linkedInLink: "https://www.linkedin.com/in/sourav-sahoo-19a637190",
-    name: "Sourav Kumar Sahoo",
-  },
-  {
-    id: 15,
-    image: "SOHAM_DEY.jpg",
-    igLink: "https://www.instagram.com/soham_dey__/",
-    linkedInLink: "https://www.linkedin.com/in/soham-dey-10/",
-    name: "Soham Dey",
+    position: "KGT Team Lead",
   },
   {
     id: 16,
@@ -117,13 +107,49 @@ export const leadData = [
     igLink: "https://www.instagram.com/_adityavatsya/",
     linkedInLink: "https://www.linkedin.com/in/adityavatsya/",
     name: "Aditya Vatsya",
+    position: "KGT Team Lead",
+  },  
+  {
+    id: 13,
+    image: "Mudit Jain.jpg",
+    igLink:
+      "https://instagram.com/mummykarajabeta_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+    linkedInLink: "https://www.linkedin.com/in/muditjain20",
+    name: "Mudit Jain",
+    position: "Nukkad Nexus Team Lead",
   },
+  
+  {
+    id: 15,
+    image: "SOHAM_DEY.jpg",
+    igLink: "https://www.instagram.com/soham_dey__/",
+    linkedInLink: "https://www.linkedin.com/in/soham-dey-10/",
+    name: "Soham Dey",
+    position: "Nukkad Nexus Team Lead",
+  },
+  {
+    id: 14,
+    image: "Sourav Kumar Sahoo.jpg",
+    igLink: "https://instagram.com/souravsahoolucky?igshid=NTc4MTIwNjQ2YQ==",
+    linkedInLink: "https://www.linkedin.com/in/sourav-sahoo-19a637190",
+    name: "Sourav Kumar Sahoo",
+    position: "KlickIt Team Lead",
+  },
+  // {
+  //   id: 16,
+  //   image: "AdityaVatsya.jpg",
+  //   igLink: "https://www.instagram.com/_adityavatsya/",
+  //   linkedInLink: "https://www.linkedin.com/in/adityavatsya/",
+  //   name: "Aditya Vatsya",
+  //   position: "KGT Team Lead",
+  // },
   {
     id: 17,
     image: "Yash Anand.jpeg",
     igLink: "https://instagram.com/yash_anand16?igshid=MzRlODBiNWFlZA==",
     linkedInLink: "https://www.linkedin.com/in/yash-anand-469698210",
     name: "Yash Anand",
+    position: "Rocket Singh Team Lead",
   },
   {
     id: 18,
@@ -131,6 +157,7 @@ export const leadData = [
     igLink: "https://instagram.com/s_jordy.gg?igshid=MzRlODBiNWFlZA==",
     linkedInLink: "https://www.linkedin.com/in/sohini-joarder",
     name: "Sohini Joarder",
+    position: "Web Dev Lead",
   },
   {
     id: 19,
@@ -138,6 +165,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/lonepair.4/",
     linkedInLink: "https://www.linkedin.com/in/abhardwaj28/",
     name: "Aditya Bhardwaj",
+    position: "Developer",
   },
   {
     id: 20,
@@ -145,6 +173,7 @@ export const leadData = [
     igLink: "https://www.instagram.com/harsh_rj002/",
     linkedInLink: "https://www.linkedin.com/in/harsh-raj-898340217",
     name: "Harsh Raj",
+    position: "Developer",
   },
   {
     id: 21,
@@ -153,6 +182,7 @@ export const leadData = [
       "https://instagram.com/raj_rishi_17_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
     linkedInLink: "https://www.linkedin.com/in/rishi-raj-81777622b/",
     name: "Rishi Raj",
+    position: "Developer",
   },
   {
     id: 22,
@@ -160,5 +190,6 @@ export const leadData = [
     igLink: "https://instagram.com/satapathy._.alfa?igshid=MzRlODBiNWFlZA==",
     linkedinLink: "https://www.linkedin.com/in/piyushrsatapathy/",
     name: "Piyush Ranjan Satapathy",
+    position: "Designer",
   },
 ];

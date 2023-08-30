@@ -1,5 +1,6 @@
 import React from 'react'
 import { event } from '../Data'
+import cursor from "../images/cursor1.png";
 
 const Events = (props) => {
   let leads=props.leads;
@@ -31,7 +32,19 @@ const Events = (props) => {
               <div className='text-white font-Mulish text-2xl font-bold md:leading-[37px] tracking-wide md:tracking-widest self-start'>{foundUser.name}</div>
               <div className='text-white font-Mulish text-lg sm:text-xl italic font-extrabold md:leading-[23px] tracking-normal md:tracking-widest mt-[5px]'>{foundUser.message1}</div>
               <div className='text-white font-Mulish text-lg sm:text-xl italic font-extrabold md:leading-[23px] tracking-normal md:tracking-widest'>{foundUser.message2}</div>
-            </div>
+            </div>        
+          </div>
+          <div className='flex w-full justify-center pt-6 sm:pt-0'>
+            <button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
+                      <span className="-translate-y-[2px] font-Rubik">
+                        Register
+                      </span>
+                      <img
+                        src={cursor}
+                        alt=""
+                        className="w-[18px] h-[18px] -translate-y-[2px] text-white fill-current ml-2"
+                      />
+                    </button>
           </div>
         </div>
       </div>
