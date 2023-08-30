@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import {imageslider} from "../Data"
 import {useState} from 'react'
 import {useEffect} from 'react'
-import kritarthlogo from '../images/kritarth logo 1 1.png'
+import kritarthlogo from '../images/kritarth logo 1 1.svg'
 import cursor from '../images/cursor1.png'
 import { Link } from 'react-router-dom'
 import CircularCounter from './counter'
@@ -47,7 +47,7 @@ function Home() {
                 </div>
                 <div className='w-full md:w-[60%] lg:w-[50%] flex items-center justify-center h-full '>
                   <div className=''></div>
-                  <div className=' md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F] italic'>
+                  <div className=' md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F] italic '>
                     <div className='text-[#b3c0d1] duration-500 hover:shadow-aboutLogoShadow duration-400 transition shadow-lg group-hover:text-white font-semibold text-sm sm:text-base  xl:text-lg md:leading-[27px] tracking-wide md:tracking-widest font-Mulish'>
                     The yearly gala known as Kritarth is a magnificent sociocultural event hosted by KIIT.Our illustrious founder, Prof. Achyuta Samanta, gave rise to KRITARTH, which is now in its 7th edition and 
                     stands for "Greatness." We are the leaders of a two-day social revolution with activities centered around the theme "Hearts of Hope," which is founded on His Eminence's ideals of the "Art of 
