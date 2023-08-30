@@ -208,7 +208,7 @@ function Navbar() {
                 <div>
                   <div className="relative flex   text-sm "
                   ><a href="https://ksac.kiit.ac.in/" target="_blank"><img
-                    className="h-10 w-auto p-1"
+                    className="h-11 w-auto p-1"
                     src={ksac}
                     alt="Your Company"
                   /></a>
