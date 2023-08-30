@@ -39,7 +39,7 @@ function Home() {
                     <img src={kritarthlogo} alt="" className='self-start' />
                     <h1 className='absolute bottom-[0px] right-[25px] text-xl md:text-2xl lg:text-4xl text-white leading-3 font-normal font-poppins'>HEARTS OF HOPE</h1>
                 </div>
-                <Link to={"/commingsoon"}><button class="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
+                <Link to={"/commingsoon"}><button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
                     <span className='font-Rubik'>Register</span>
                     <img src={cursor} alt="" className='w-[18px] h-[18px]  text-white fill-current ml-2'/>
                     </button>
@@ -89,7 +89,7 @@ function Home() {
     </div>
     </div>
     <div className='flex items-center h-{500px} xl:h-screen justify-center'>
-    <div class='w-4/5 md:w-4/5 md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
+    <div className='w-4/5 md:w-4/5 md:mr-8 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
       <CountdownTimer targetDate={targetDate} /></div>
     </div>
     <div className="fixed top-0 -z-20 right-0 w-[100vw] h-[100vw]">
