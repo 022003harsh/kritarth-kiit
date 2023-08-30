@@ -80,65 +80,138 @@ function Navbar() {
   }, []);
   return (
     <>
-      <header className={`text-gray-90 ${navColor} hidden w-screen md:flex shadow-2xl z-50 shadow-slate-700/10 body-font  lg:sticky top-0 `}>
-        <div className="container mx-auto flex flex-wrap px-5 py-1 flex-col md:flex-row items-center">
+      {/* <header className={`text-gray-90 ${navColor} hidden w-screen md:flex shadow-2xl z-50 shadow-slate-700/10 body-font  lg:sticky top-0  mb-2`}>
+        <div className="container mx-auto   px-5 py-1 flex justify-evenly items-center">
           <div className="flex title-font font-base items-center text-gray-900 mb-4 md:mb-0">
-            <Link to={'/'} className="px-10 " onClick={() => changecolor("homecolor")}>
-              <img src={kritarthlogo} alt="kritarthlogo" className="logo_shadow  h-10 w-full md:h-[60px] backdrop-sha" />
+            <Link to={'/'} className=" " onClick={() => changecolor("homecolor")}>
+              <img src={kritarthlogo} alt="kritarthlogo" className="logo_shadow  h-16 w-full  backdrop-sha" />
             </Link>
           </div>
-          <nav className="md:ml-auto md:mr-auto flex  flex-wrap text-white items-center md:text-lg text-sm space-x-2 justify-center nav_font">
+          <nav className="flex items-start text-white i lg:text-xl space-x-2 justify-evenly  nav_font">
             <Link
               onClick={() => { changecolor("about") }}
               to={"/about"}
-              className={`font-semiblod ${about && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
+              className={`md:font-semiblod ${about && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               About
             </Link>
             <Link
               onClick={() => { changecolor("evants") }}
               to={"/event"}
-              className={`font-semiblod ${events && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
+              className={`md:font-semiblod ${events && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               Events
             </Link>
             <Link
               onClick={() => { changecolor("leads") }}
               to={"/leads"}
-              className={`font-semiblod ${leads && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
+              className={`md:font-semiblod ${leads && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               Leads
             </Link>
             <Link
               onClick={() => { changecolor("reg") }}
               to={"/commingsoon"}
-              className={`font-semiblod ${reg && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
+              className={`md:font-semiblod ${reg && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               Register
             </Link>
             <Link
               onClick={() => { changecolor("contact") }}
               to={"/contacts"}
-              className={`font-semiblod ${contact && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
+              className={`md:font-semiblod ${contact && 'bg-[#3CA465]'} px-3 py-1  md:rounded-xl hover:text-gray-900`}
             >
               Contact
             </Link>
           </nav>
 
-          <div className="lg:inline-flex lg:relative md:absolute items-center md:top-1 right-16 ">
+          <div className="flex lg:relative  items-center  ">
             <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
 
               <a href="https://ksac.kiit.ac.in/" target="_blank">
-                <img src={ksac} alt="ksaclogo" className="h-10 md:h-[60px] p-1" />
+                <img src={ksac} alt="ksaclogo" className="h-16 p-1" />
               </a>
 
               <a href="https://kiit.ac.in/" target="_blank">
-                <img src={kiit} alt="kiitlogo" className="h-10 md:h-[60px] p-1" />
+                <img src={kiit} alt="kiitlogo" className="h-16  p-1" />
               </a>
             </div>
           </div>
         </div>
-      </header>
+      </header> */}
+
+      <nav className={`${navColor} hidden md:block border-gray-200 sticky top-0 `}>
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2 ">
+          <div className="flex title-font font-base items-center text-gray-900 mb-4 md:mb-0">
+            <Link to={'/'} className=" " onClick={() => changecolor("homecolor")}>
+              <img src={kritarthlogo} alt="kritarthlogo" className="logo_shadow  h-16 w-full  backdrop-sha" />
+            </Link>
+          </div>
+          <div className="flex md:order-2">
+            <div
+              type="button"
+              className="mr-3 md:mr-0 flex justify-center items-center space-x-2"
+            >
+              <a href="https://ksac.kiit.ac.in/" target="_blank">
+                <img src={ksac} alt="ksaclogo" className="h-20 img p-1" />
+              </a>
+
+              <a href="https://kiit.ac.in/" target="_blank">
+                <img src={kiit} alt="kiitlogo" className="h-16 img p-1" />
+              </a>
+            </div>
+
+          </div>
+          <div
+            className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-cta"
+          >
+            <div className="flex justify-center items-center space-x-4  text-white font-semibold nav_font">
+
+              <Link
+                onClick={() => { changecolor("about") }}
+                to={"/about"}
+                className={`md:font-semiblod ${about && 'bg-[#3CA465]'} px-3 py-1   md:rounded-xl hover:text-gray-900`}
+              >
+                About
+              </Link>
+              <Link
+                onClick={() => { changecolor("evants") }}
+                to={"/event"}
+                className={`md:font-semiblod ${events && 'bg-[#3CA465]'} px-3 py-1   md:rounded-xl hover:text-gray-900`}
+              >
+                Events
+              </Link>
+              <Link
+                onClick={() => { changecolor("leads") }}
+                to={"/leads"}
+                className={`md:font-semiblod ${leads && 'bg-[#3CA465]'} px-3 py-1   md:rounded-xl hover:text-gray-900`}
+              >
+                Leads
+              </Link>
+              <Link
+                onClick={() => { changecolor("reg") }}
+                to={"/commingsoon"}
+                className={`md:font-semiblod ${reg && 'bg-[#3CA465]'} px-3 py-1   md:rounded-xl hover:text-gray-900`}
+              >
+                Register
+              </Link>
+              <Link
+                onClick={() => { changecolor("contact") }}
+                to={"/contacts"}
+                className={`md:font-semiblod ${contact && 'bg-[#3CA465]'} px-3 py-1   md:rounded-xl hover:text-gray-900`}
+              >
+                Contact
+              </Link>
+
+
+            </div>
+          </div>
+        </div>
+      </nav >
+
+
+
 
       <nav className=" md:hidden sticky top-0 z-50 bg-black/5">
         <div className={`mx-auto ${navColor} ${click ? "backdrop-blur-md" : ""} max-w-7xl px-2 md:px-6 lg:px-8`}>
