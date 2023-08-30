@@ -2,7 +2,12 @@ import React from 'react'
 import { event } from '../Data'
 
 const Events = (props) => {
-  let leads = props.leads;
+  let leads=props.leads;
+  // let event = props.event;
+  // let name = props.name;
+  // let url = props.url;
+  // let message1 = props.message1;
+  // let message2 = props.message2;
   let foundUser = null;
   for (let key in event) {
     if (event[key].id === leads) {
@@ -15,16 +20,17 @@ const Events = (props) => {
     <div className='w-[100vw] overflow-x-hidden'>
       <div className='max-w-[1920px] p-3 xl:p-0 flex flex-col mx-auto '>
         <div className='p-3 xl:p-0 w-full xl:w-[1162px] mx-auto md:mt-[40px]'>
-          <div className='flex justify-center items-center text-black font-semibold text-2xl h-full'>
-            {
-              foundUser.event
-            }
+          <div className='w-full object-cover h-full'>
+            {/* <img src={} alt="" /> */}
           </div>
-          <div className='flex justify-center gap-8 items-center mt-8'>
-            <div className='max-width-[600px] w-full h-[600px] rounded-3xl bg-black border-solid border-[0.92px] border-[#7F7F7F]'></div>
-            <div className='flex flex-col justify-center items-center py-10 gap-6 px-10 max-width-[600px] w-full h-[600px] rounded-3xl bg-red-600 border-solid border-[0.92px] border-[#7F7F7F]'>
-              <div className='text-black text-2xl font-bold md:leading-[37px] tracking-wide md:tracking-widest'>{foundUser.name}</div>
-              <div className='text-black text-xl font-extrabold md:leading-[33px] tracking-wide md:tracking-widest'></div>
+          <div className='flex flex-col lg:flex-row justify-center gap-8 items-center mt-8'>
+            <div className='max-width-[500px] max-h-[500px] rounded-3xl bg-black border-solid border-[0.92px] border-[#7F7F7F]'>
+              <img src={foundUser.url} alt="" className='rounded-3xl max-width-[500px] w-full max-h-[500px] h-full' />
+            </div>
+            <div className='flex flex-col justify-center items-center py-10 px-10 max-width-[500px] sm:h-[500px] sm:w-[500px] w-full rounded-3xl  border-solid border-[0.92px] border-[#7F7F7F] blurbox'>
+              <div className='text-white font-Mulish text-2xl font-bold md:leading-[37px] tracking-wide md:tracking-widest self-start'>{foundUser.name}</div>
+              <div className='text-white font-Mulish text-lg sm:text-xl italic font-extrabold md:leading-[23px] tracking-normal md:tracking-widest mt-[5px]'>{foundUser.message1}</div>
+              <div className='text-white font-Mulish text-lg sm:text-xl italic font-extrabold md:leading-[23px] tracking-normal md:tracking-widest'>{foundUser.message2}</div>
             </div>
           </div>
         </div>

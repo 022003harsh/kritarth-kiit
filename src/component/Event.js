@@ -90,15 +90,15 @@ const About = (props) => {
           </div>
 
           <div className="p-3 xl:p-0 max-w-[1162px] w-full mx-auto md:mt-5">
-            <div className="w-full grid grid-cols-2 gap-5">
+            <div className="w-full grid lg:grid-cols-2 grid-cols-1 h-full gap-12 md:gap-[100px]">
               {event.map((abouts, i) => {
                 return (
                   <div
                     key={i}
                     onClick={handleClick(abouts.id)}
-                    className="w-[500] cursor-pointer h-[500px] bg-white"
+                    className=" cursor-pointer rounded-xl "
                   >
-                    {abouts.lead}
+                    <img src={abouts.url} alt="" className="w-full h-full rounded-xl hover:scale-105 translate-3 duration-200 object-cover"  />
                   </div>
                 );
               })}

@@ -109,3 +109,12 @@
     transform: scale(1, 1);
   }
 }
+
+
+.blurbox{
+border-radius: 23.93px;
+border: 0.92px solid #7F7F7F;
+background: linear-gradient(134deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%);
+box-shadow: 0px 3.681516647338867px 3.681516647338867px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(9.203792572021484px);
+}

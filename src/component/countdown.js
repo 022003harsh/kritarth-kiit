@@ -30,29 +30,29 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div className="text-center">
-      <div className="text-4xl font-semibold mb-2 text-white font-raleway">Mark your calender🗓️</div>
-      <div className="text-xl mb-4">
-        <div className="font-semibold text-3xl text-white">Days</div>
-        <div className="font-semibold text-3xl text-white">
+      <div className="text-xl md:text-4xl font-semibold mb-2 text-white font-raleway">Mark your calender🗓️</div>
+      <div className="text-sm md:text-xl mb-4">
+        <div className="font-semibold text-xl md:text-3xl text-white">Days</div>
+        <div className="font-semibold text-xl md:text-3xl text-white">
           {timeRemaining.days}
         </div>
       </div>
       <div className="flex justify-center space-x-4">
         <div className="text-xl">
-          <div className="font-semibold text-3xl text-white">Hours</div>
-          <div className="font-semibold text-3xl text-white">
+          <div className="font-semibold text-xl md:text-3xl text-white">Hours</div>
+          <div className="font-semibold text-xl md:text-3xl text-white">
             {timeRemaining.hours}
           </div>
         </div>
         <div className="text-xl">
-          <div className="font-semibold text-3xl text-white">Minutes</div>
-          <div className="font-semibold text-3xl text-white">
+          <div className="font-semibold text-xl md:text-3xl text-white">Minutes</div>
+          <div className="font-semibold text-xl md:text-3xl text-white">
             {timeRemaining.minutes}
           </div>
         </div>
         <div className="text-xl">
-          <div className="font-semibold text-3xl text-white">Seconds</div>
-          <div className="font-semibold text-3xl text-white">
+          <div className="font-semibold text-xl md:text-3xl text-white">Seconds</div>
+          <div className="font-semibold text-xl md:text-3xl text-white">
             {timeRemaining.seconds}
           </div>
         </div>
