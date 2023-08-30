@@ -19,6 +19,7 @@ const Lead = () => {
           className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[0].name}</h3>
+        <h4 className="mt-0 font-bold">{leadData[0].position}</h4>
         <ul className="mt-2 flex">
           <li className="pr-8">
             <Link to={leadData[0].igLink} target="_blank" rel="noreferrer">
@@ -52,6 +53,7 @@ const Lead = () => {
               className="rounded-full w-48 h-48 object-cover"
             />
             <h3 className="mt-4 font-bold">{item.name}</h3>
+            <h4 className="mt-0 font-bold">{item.position}</h4>
             <ul className="mt-2 flex">
               <li className="pr-8">
                 <Link to={item.igLink} target="_blank" rel="noreferrer">
@@ -92,6 +94,7 @@ const Lead = () => {
               className="rounded-full w-48 h-48 object-cover"
             />
             <h3 className="mt-4 font-bold">{item.name}</h3>
+            <h4 className="mt-0 font-bold">{item.position}</h4>
             <ul className="mt-2 flex">
               <li className="pr-8">
                 <Link to={item.igLink} target="_blank" rel="noreferrer">
@@ -127,6 +130,7 @@ const Lead = () => {
           className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[8].name}</h3>
+        <h4 className="mt-0 font-bold">{leadData[8].position}</h4>
         <ul className="mt-2 flex">
           <li className="pr-8">
             <Link to={leadData[8].igLink} target="_blank" rel="noreferrer">
@@ -160,6 +164,7 @@ const Lead = () => {
               className="rounded-full w-48 h-48 object-cover"
             />
             <h3 className="mt-4 font-bold">{item.name}</h3>
+            <h4 className="mt-0 font-bold">{item.position}</h4>
             <ul className="mt-2 flex">
               <li className="pr-8">
                 <Link to={item.igLink} target="_blank" rel="noreferrer">
@@ -195,6 +200,7 @@ const Lead = () => {
               className="rounded-full w-48 h-48 object-cover"
             />
             <h3 className="mt-4 font-bold">{item.name}</h3>
+            <h4 className="mt-0 font-bold">{item.position}</h4>
             <ul className="mt-2 flex">
               <li className="pr-8">
                 <Link to={item.igLink} target="_blank" rel="noreferrer">
@@ -230,6 +236,7 @@ const Lead = () => {
           className="rounded-full w-48 h-48 object-cover"
         />
         <h3 className="mt-4 font-bold">{leadData[17].name}</h3>
+        <h4 className="mt-0 font-bold">{leadData[17].position}</h4>
         <ul className="mt-2 flex">
           <li className="pr-8">
             <Link to={leadData[17].igLink} target="_blank" rel="noreferrer">
@@ -263,6 +270,7 @@ const Lead = () => {
                 className="rounded-full w-48 h-48 object-cover"
               />
               <h3 className="mt-4 font-bold">{item.name}</h3>
+              <h4 className="mt-0 font-bold">{item.position}</h4>
               <ul className="mt-2 flex">
                 <li className="pr-8">
                   <Link to={item.igLink} target="_blank" rel="noreferrer">
