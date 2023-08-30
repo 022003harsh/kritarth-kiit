@@ -38,6 +38,12 @@ function Home() {
                 <div className='relative mt-2 md:mt-0 ml-[0px] md:ml-[15px] zoom-in-out-box'>
                     <img src={kritarthlogo} alt="" className='self-start' />
                     <h1 className='absolute bottom-[0px] right-[25px] text-xl md:text-2xl lg:text-4xl text-white leading-3 font-normal font-poppins'>HEARTS OF HOPE</h1>
+                    
+                    
+                </div>
+                
+                <div className=''>
+                   <h1 className='justify-center text-xl md:text-2xl lg:text-4xl text-white leading-3 font-normal font-poppins'>17-18 Sept, 2023</h1>
                 </div>
                 <Link to={"/commingsoon"}><button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
                     <span className='font-Rubik'>Register</span>
