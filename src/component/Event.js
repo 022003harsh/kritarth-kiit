@@ -89,7 +89,7 @@ const About = (props) => {
             </div>
           </div>
 
-          <div className="p-3 xl:p-0 max-w-[1162px] w-full mx-auto md:mt-5">
+          <div className="p-3 xl:p-0 max-w-[1162px] w-full mx-auto md:mt-12">
             <div className="w-full grid lg:grid-cols-2 grid-cols-1 h-full gap-12 md:gap-[100px]">
               {event.map((abouts, i) => {
                 return (
