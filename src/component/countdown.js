@@ -29,40 +29,54 @@ const CountdownTimer = ({ targetDate }) => {
   }, []);
 
   return (
-    <div className="text-center">
-      <div className="text-2xl md:text-4xl font-semibold text-white font-raleway">Mark your calender 🗓️</div>
-      <div className="text-xl ">
-        <div className="font-semibold text-1xl md:text-3xl text-white pb-2">16-17 Sept, 2023</div>
-      <div className="text-1xl md:text-4xl font-semibold pt-2 text-white font-raleway">Countdown of Hope</div>
-        
+    <div className="text-center max-w-[1162px]">
+      <div className="text-2xl md:text-4xl font-semibold text-white font-raleway pt-6">
+        Mark your calender 🗓️
       </div>
-      <div className="flex justify-center space-x-4">
       <div className="text-xl ">
-        <div className="font-semibold text-xl md:text-3xl text-white">Days</div>
-        <div className="font-semibold text-xl md:text-3xl text-white">
-          {timeRemaining.days}
+        <div className="font-semibold text-1xl md:text-3xl text-white pb-2">
+          16-17 Sept, 2023
+        </div>
+        <div className="text-1xl md:text-4xl font-semibold pt-2 text-white font-raleway">
+          Countdown of Hope
         </div>
       </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">Hours</div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+      <div className="flex flex-row pt-6 pb-6">
+      <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-transparent">
+            {timeRemaining.days}
+          </div>
+          <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Days
+          </div>
+        </div>
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.hours}
           </div>
-        </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">Minutes</div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
-            {timeRemaining.minutes}
+          <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Hours
           </div>
         </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">Seconds</div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-transparent">
+            {timeRemaining.minutes}
+          </div>
+          <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Minutes
+          </div>
+        </div>
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-2xl md:text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.seconds}
+          </div>
+          <div className="font-semibold text-lg md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Seconds
           </div>
         </div>
       </div>
-    </div>
+</div>
+
   );
 };
 
