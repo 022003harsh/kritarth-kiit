@@ -94,7 +94,7 @@ function Home() {
     </div>
     </div>
     <div className='flex items-center h-{500px} xl:h-screen justify-center pt-7'>
-    <div className='w-full mx-3 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
+    <div className='w-full max-w-xl lg:max-w-4xl mx-3 group mb-1 md:mb-0 md:px-7 px-2 py-2 md:py-6 lg:py-9 xl:py-10 xl:px-12 rounded-[10px] md:rounded-[20px] flex items-center justify-center bg-black/20 shadow-md backdrop-blur-sm border-solid border-[0.795px] border-[#7F7F7F]'>
       <CountdownTimer targetDate={targetDate} /></div>
     </div>
     <div className="fixed top-0 -z-20 left-0 w-[100vw] h-[100vh]">
