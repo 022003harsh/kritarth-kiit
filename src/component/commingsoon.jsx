@@ -9,7 +9,7 @@ const commingsoon = () => {
              <img src={commingsoonimg} alt="" className='md:h-[80vh] max-h-[500px]'/>
           </div>
         </div>
-    <div className="fixed top-0 -z-20 right-0 w-[100vw] h-[100vh] bg-black">
+    <div className="fixed top-0 -z-10 right-0 w-[100vw] h-[100vh] bg-black">
         </div>
     </div>
     

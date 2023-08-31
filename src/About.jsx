@@ -170,10 +170,10 @@ function About() {
             </a>
           </div>
           <div className="p-4">
-            <h5 className="mb-2 text-xl font-medium leading-tight text-black ">
+            <h5 className="mb-2 text-xl font-medium leading-tight text-white ">
               ABOUT FOUNDER
             </h5>
-            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-black ">
+            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-white ">
               Prof. Achyuta Samanta is a social worker, philantrophist and
               educationalist. He established the prestigious educational
               institutions known as the Kalinga Institute of Social Sciences
@@ -220,10 +220,10 @@ function About() {
             </a>
           </div>
           <div className="p-4">
-            <h5 className="mb-2 text-xl font-medium leading-tight text-black ">
+            <h5 className="mb-2 text-xl font-medium leading-tight text-white ">
               ABOUT KIIT
             </h5>
-            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-black ">
+            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-white ">
               Prof. Achyuta Samanta is a social worker, philantrophist and
               educationalist. He established the prestigious educational
               institutions known as the Kalinga Institute of Social Sciences
@@ -270,10 +270,10 @@ function About() {
             </a>
           </div>
           <div className="p-4">
-            <h5 className="mb-2 text-xl font-medium leading-tight  text-black ">
+            <h5 className="mb-2 text-xl font-medium leading-tight  text-white ">
               ABOUT KISS
             </h5>
-            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-black ">
+            <p className="mb-4 h-40 text-justify overflow-x-scroll text-base text-white ">
               KISS was designated a Deemed University by the Ministry of Human
               Resource Development of the Government of India on August 25, 2017
               (U/S 3 of the UGC Act, 1956).As a result, it has become India's
