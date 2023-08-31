@@ -8,7 +8,7 @@ import bg from "./images/Background_Image.png"
 function About() {
   return (
     <>
-      <div className="md:flex hidden text-white flex-col space-y-20 md:px-4 max-w-screen  items-center justify-center mt-[35px]">
+      <div className="md:flex hidden text-white md:text-white sm:text-white flex-col space-y-20 md:px-4 max-w-screen  items-center justify-center mt-[35px]">
         <div className="flex relative max-w-screen  bg-white   bg-grey-500  items-center  lg:h-[1233px] lg:w-[1233px]">
           <div className="h-full mix-blend-multiply">
             <img

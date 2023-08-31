@@ -36,7 +36,7 @@ const Events = (props) => {
               
             </div>
           </div>
-          <div className='flex justify-center'>
+          <div className='flex justify-center pt-5 md:pt-0'>
           <Link to={"/commingsoon"}>
                   <button className="bg-[#3CA465] cursor-pointer text-[20px] text-white font-medium py-2 px-4 mt-[0px] md:mt-[40px] rounded-xl inline-flex items-center">
                     <span className="-translate-y-[2px] font-Rubik">

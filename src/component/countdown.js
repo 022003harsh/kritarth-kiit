@@ -41,41 +41,42 @@ const CountdownTimer = ({ targetDate }) => {
           Countdown of Hope
         </div>
       </div>
-      <div className="flex justify-center space-x-4">
-        <div className="text-xl ">
-          <div className="font-semibold text-xl md:text-3xl text-white">
-            Days
-          </div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+      <div className="flex flex-row pt-6">
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.days}
           </div>
-        </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">
-            Hours
+          <div className="font-semibold text-xl md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Days
           </div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+        </div>
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.hours}
           </div>
-        </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">
-            Minutes
+          <div className="font-semibold text-xl md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Hours
           </div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+        </div>
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.minutes}
           </div>
-        </div>
-        <div className="text-xl">
-          <div className="font-semibold text-xl md:text-3xl text-white">
-            Seconds
+          <div className="font-semibold text-xl md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Minutes
           </div>
-          <div className="font-semibold text-xl md:text-3xl text-white">
+        </div>
+        <div className="text-xl bg-white w-full md:w-1/4 lg:w-1/5 mx-3">
+          <div className="font-inter text-8xl bg-gradient bg-clip-text text-transparent">
             {timeRemaining.seconds}
+          </div>
+          <div className="font-semibold text-xl md:text-3xl bg-gradient bg-clip-text text-transparent">
+            Seconds
           </div>
         </div>
       </div>
-    </div>
+</div>
+
   );
 };
 
