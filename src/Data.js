@@ -5,12 +5,12 @@ export const event = [
     name: "KLICK IT",
     url: "KLICK IT.png",
     message1:`One picture follows another to present one full tale, much as words follow one another to complete a statement that finally makes sense. What do photographs and the emotions they portray have in common? Words fall short of the mark. Through these feelings, we hope to better the entire world. The subject will be provided at the moment, and the images you submit must be related to one another.
- 
-    Rules and Regulations:
-    All modes and devices for photography are allowed (including DSLRs, point-and-shoot cameras, mobile phones, etc.).
-    No Photoshop editing is allowed.
-    The story may consist of pictures ranging from 3 to 5.
-    The pictures shall be of the same day of the event; otherwise, they shall be disqualified.`
+
+Rules and Regulations:
+1.All modes and devices for photography are allowed (including DSLRs, point-and-shoot cameras, mobile phones, etc.).
+2.No Photoshop editing is allowed.
+3.The story may consist of pictures ranging from 3 to 5.
+4.The pictures shall be of the same day of the event; otherwise, they shall be disqualified.`
   },
   {
     id: 1,
@@ -18,8 +18,7 @@ export const event = [
     name: "ROCKET SINGH",
     url: "rocket singh.png",
     message1:`Each competing team performs an 8 to 10-minute Nukkad Natak, bringing attention to the cultural and emotional effects of abandonment. The Nukkad Natak performances ought to successfully portray the emotional agony, highlighting the necessity of showing empathy, comprehension, and responsible care. Encourage teams to propose doable actions society may take to stop wrongdoing and strengthen its sense of support.\n
-
-    Rules and Regulations:\n
+Rules and Regulations:\n
     1. Participation: solo, duet, trio, and teams (no size limit for teams).\n
     2. Teams must submit their final list of participants during registration.\n
     3. The play's theme should focus on a relevant social issue, aiming to raise awareness and inspire positive change.\n
