@@ -16,6 +16,9 @@ module.exports = {
         'Rubik':'Rubik',
         'Poppins':'Poppins',
         'raleway': ['"Raleway"', 'sans-serif']
+      },
+      backgroundImage:{
+        'gradient' : 'linear-gradient(180deg, #170D36 0%, #261C52 100%)'
       }
     },
   },
