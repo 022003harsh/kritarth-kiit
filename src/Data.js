@@ -82,10 +82,10 @@ export const imageslider = [
     // {
     //   url: "eventimg1.png",
     // },
-  {
-    url: "eventimg2.png",
-  },
-  {
-    url: "eventimg3.png",
-  },
+  // {
+  //   url: "eventimg2.png",
+  // },
+  // {
+  //   url: "eventimg3.png",
+  // },
 ];
