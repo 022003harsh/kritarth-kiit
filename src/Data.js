@@ -19,18 +19,17 @@ Rules and Regulations:
     url: "rocket singh.png",
     message1:`Each competing team performs an 8 to 10-minute Nukkad Natak, bringing attention to the cultural and emotional effects of abandonment. The Nukkad Natak performances ought to successfully portray the emotional agony, highlighting the necessity of showing empathy, comprehension, and responsible care. Encourage teams to propose doable actions society may take to stop wrongdoing and strengthen its sense of support.\n
 Rules and Regulations:\n
-    1. Participation: solo, duet, trio, and teams (no size limit for teams).\n
-    2. Teams must submit their final list of participants during registration.\n
-    3. The play's theme should focus on a relevant social issue, aiming to raise awareness and inspire positive change.\n
-    4. Content should be free of offensive language, derogatory remarks, and any form of discrimination.\n
-    5. The play should be an original creation. Plagiarism is strictly prohibited.\n
-    6. Judging Criteria:\n
-    i) Content Relevance and Impact\n
-    ii) Acting Skills and Expressions\n
-    iii) Originality and Creativity\n
-    iv) Overall presentation and flow\n
-    v) The decision of the panel of judges will be final and binding.\n
-    ` 
+  1. Participation: solo, duet, trio, and teams (no size limit for teams).\n
+  2. Teams must submit their final list of participants during registration.\n
+  3. The play's theme should focus on a relevant social issue, aiming to raise awareness and inspire positive change.\n
+  4. Content should be free of offensive language, derogatory remarks, and any form of discrimination.\n
+  5. The play should be an original creation. Plagiarism is strictly prohibited.\n
+  6. Judging Criteria:\n
+  i) Content Relevance and Impact\n
+  ii) Acting Skills and Expressions\n
+  iii) Originality and Creativity\n
+  iv) Overall presentation and flow\n
+  v) The decision of the panel of judges will be final and binding.\n ` 
   },
   {
     id: 2,
@@ -59,8 +58,23 @@ Rules and Regulations:\n
     event: "EVENT NAME",
     name: "NUKKAD NEXUS",
     url: "Nukkad Nexus.png",
-    message1:"Certain aspects of life are best showcased than preached. Team Kritarth presents Nukkad Nexus which is themed with the motto of showcasing the emotional and societal aspects . The participation can be done solo or in teams to infuse the team spirit . The effective collaboration of the participants should emphasize on the need for compassion,love , responsibility and a positive change.Certain aspects of life are best showcased than preached. Team Kritarth presents Nukkad Nexus which is themed with the motto of showcasing the emotional and societal aspects . The participation can be done solo or in teams to infuse the team spirit . The effective collaboration of the participants should emphasize on the need for compassion,love , responsibility and a positive change.Certain aspects of life are best showcased than preached. Team Kritarth presents Nukkad Nexus which is themed with the motto of showcasing the emotional and societal aspects . The participation can be done solo or in teams to infuse the team spirit . The effective collaboration of the participants should emphasize on the need for compassion,love , responsibility and a positive change.Certain aspects of life are best showcased than preached. Team Kritarth presents Nukkad Nexus which is themed with the motto of showcasing the emotional and societal aspects . The participation can be done solo or in teams to infuse the team spirit . The effective collaboration of the participants should emphasize on the need for compassion,love , responsibility and a positive change.",
-    
+    message1:`Each competing team performs an 8 to 10minute Nukkad Natak.
+bringing attention to the cultural and emotional effects of abandonment. The Nukkad Natak performances ought to successfully portray the emotional agony, highlighting the necessity of showing empathy, comprehension, and responsible care.
+Encourage teams to propose doable actions society may take to stop wrongdoing and strengthen its sense of support.
+
+Rules and Regulations:
+1. Participation: solo, duet, trio, and teams (no size limit for teams).
+2. Teams must submit their final list of participants during registration.
+  (The play's theme should focus on a relevant social issue, aiming to raise
+  awareness and inspire positive change.)
+3. Content should be free of offensive language, derogatory remarks, and
+  any form of discrimination.
+4. The play should be an original creation. Plagiarism is strictly prohibited.
+5. Judging Criteria:
+  i) Content Relevance and Impact
+  ii) Acting Skills and Expressions
+  iii) Originality and Creativity overall presentation and flow
+  iv) The decision of the panel of judges will be final and binding.`,
   },
 ];
 
@@ -68,10 +82,10 @@ export const imageslider = [
     // {
     //   url: "eventimg1.png",
     // },
-  {
-    url: "eventimg2.png",
-  },
-  {
-    url: "eventimg3.png",
-  },
+  // {
+  //   url: "eventimg2.png",
+  // },
+  // {
+  //   url: "eventimg3.png",
+  // },
 ];
